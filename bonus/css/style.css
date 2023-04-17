@@ -146,6 +146,9 @@ main .container{
     padding-left: 10px;
     padding-right: 10px;
 }
+.cuore:hover{
+    color: red;
+}
 /* Info item */
 .info-item div:nth-child(odd){
     font-size: 13px;
