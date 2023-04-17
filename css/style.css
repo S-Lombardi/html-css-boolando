@@ -29,6 +29,9 @@ body{
     align-items: center;
 }
 
+.relative{
+    position: relative;
+}
 /*FINE UTILITà */
 
 
@@ -72,10 +75,6 @@ header .row{
     color: white;
     text-align: end;
 }
-
-
-
-
 /*FINE HEADER */
 
 
@@ -83,11 +82,52 @@ header .row{
 .col-card{
     width: calc(100%/3 - 20px);
     margin: 10px;
-    height: 500px;
+    /* height: 600px; */
     border: 1px dashed rgb(0, 0, 0);
 }
-/* FINE MAIN */
 
+.col-card img{
+    width: 100%;
+}
+
+/* Sconti */
+.label-red{
+    background-color: red;
+    padding: 5px 10px 5px 10px;
+}
+
+.label-green{
+    background-color: green;
+    padding: 5px 10px 5px 10px;
+}
+
+.content .label {
+    position: absolute;
+    bottom: 40px;
+    color: white;
+    font-size: 12px;
+
+}
+
+/* Cuore */
+.content .cuore {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+.cuore{
+    font-size: 30px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* Prezzi */
+
+
+
+
+
+/* FINE MAIN */
 
 /* INIZIO FOOTER */
 footer{
@@ -101,6 +141,4 @@ footer{
     height: 50px;
     border: 1px dashed rgb(255, 255, 255);
 }
-
-
 /* FINE FOOTER */
