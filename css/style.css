@@ -109,8 +109,6 @@ header .row{
     display: none;
 }
 
-
-
 /* Label - Sconti */
 .label-red{
     background-color: red;
@@ -124,10 +122,10 @@ header .row{
 
 .content .label {
     position: absolute;
-    bottom: 80px;
+    bottom: 100px;
     color: white;
     font-size: 12px;
-    font-weight: bold;
+    font-weight: bolder;
 
 }
 /* Cuore */
@@ -143,9 +141,25 @@ header .row{
     padding-right: 10px;
 }
 /* Info item */
-.info-item > div:nth-child(odd){
+.info-item div:nth-child(odd){
     font-size: 13px;
+}
 
+.info-item div:nth-child(2){
+    font-weight: bold;   
+}
+
+
+.info-item div:nth-last-of-type(1){
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.info-item div :last-child{
+    color: black;
+    text-decoration: line-through;
+    font-weight: lighter;
 }
 
 
