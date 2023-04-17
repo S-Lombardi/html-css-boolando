@@ -86,11 +86,32 @@ header .row{
     border: 1px dashed rgb(0, 0, 0);
 }
 
+/* IMG */
 .col-card img{
     width: 100%;
 }
 
-/* Sconti */
+.content-img:hover .second-img{
+    display: block;
+    width: 100%;
+}
+
+.content-img:hover .first-img{
+    display: none;
+    width: 100%;
+}
+
+.content-img .first-img{
+    display: block;
+}
+
+.content-img .second-img{
+    display: none;
+}
+
+
+
+/* Label - Sconti */
 .label-red{
     background-color: red;
     padding: 5px 10px 5px 10px;
@@ -103,12 +124,12 @@ header .row{
 
 .content .label {
     position: absolute;
-    bottom: 40px;
+    bottom: 80px;
     color: white;
     font-size: 12px;
+    font-weight: bold;
 
 }
-
 /* Cuore */
 .content .cuore {
     position: absolute;
@@ -121,10 +142,11 @@ header .row{
     padding-left: 10px;
     padding-right: 10px;
 }
-/* Prezzi */
+/* Info item */
+.info-item > div:nth-child(odd){
+    font-size: 13px;
 
-
-
+}
 
 
 /* FINE MAIN */
